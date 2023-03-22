@@ -1,4 +1,7 @@
-Créer Linode sur le site, choisir Ubuntu 22.04 ainsi qu’un mot de passe à conserver précieusement.
+Aller sur le site https://cloud.linode.com et après vous être connecté/créer un compte
+aller sur les options de création et choisissez linode
+Choisir Ubuntu 22.04,l'option désirée ainsi qu’un mot de passe à conserver précieusement
+Vous pouvez renommer votre Linode pour mieux vous repérer
 
 Lancer le Terminal et écrire la commande:
 « ssh root@{adresseIpDuServeur} »
