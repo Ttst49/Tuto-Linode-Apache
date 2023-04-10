@@ -52,12 +52,12 @@ Par défaut, cet emplacement possède un simple fichier « index.html » que nou
 
 
 Pour associer un compte github, vous devez copier ces lignes de commande dans votre terminal:
-« type -p curl >/dev/null || sudo apt install curl -y
+" -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
 && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
 && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 && sudo apt update \
-&& sudo apt install gh -y »
+&& sudo apt install gh -y "
 
 Continuez avec la commande:
 « gh auth login », cette commande vous demandera plusieurs informations, choisissez dans l’ordre:
