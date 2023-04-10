@@ -126,7 +126,7 @@ Pour installer mysql, lancez la commande:
 Une fois cela fait, vous devez écrire une commande qui va nous lancer un terminal SQL:
 « mysql -u root »
 Nous allons créer un compte dans la base de donnée avec la commande:
-« ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY {votremdpSQL}; »
+« ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '{votremdpSQL}'; »
 N’oubliez pas le point virgule car il est obligatoire pour amorcer une commande, choisissez un mot de passe et retenez le/notez le
 
 une fois cela fait, quittez le terminal SQL en écrivant « \q » par la suite, vous devez lancer l’installation de la base de donnée en utilisant la commande: « mysql_secure_installation »
